@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DailyQuoteComponent } from './components/daily-quote/daily-quote.component';
 import { QuoteService } from './services/quote.service';
+import { DailyIdeasComponent } from './components/daily-ideas/daily-ideas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DailyQuoteComponent
+    DailyQuoteComponent,
+    DailyIdeasComponent
   ],
   imports: [
     BrowserModule,

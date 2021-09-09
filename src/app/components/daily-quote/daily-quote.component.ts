@@ -22,9 +22,9 @@ export class DailyQuoteComponent implements OnInit {
     })
   }
   getQuote() {
-    const randomQuoteInex: number = Math.round(Math.random() * 50);
-    this.body = this.quotes$[randomQuoteInex].q;
-    this.author = this.quotes$[randomQuoteInex].a;
+    const randomQuoteIndex: number = Math.round(Math.random() * 50);
+    this.body = this.quotes$[randomQuoteIndex].q;
+    this.author = this.quotes$[randomQuoteIndex].a;
   }
 
 
