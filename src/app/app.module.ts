@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { DailyQuoteComponent } from './components/daily-quote/daily-quote.component';
 import { QuoteService } from './services/quote.service';
 import { DailyIdeasComponent } from './components/daily-ideas/daily-ideas.component';
+import { NewIdeaModalComponent } from './components/new-idea-modal/new-idea-modal.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DailyQuoteComponent,
-    DailyIdeasComponent
+    DailyIdeasComponent,
+    NewIdeaModalComponent
   ],
   imports: [
     BrowserModule,
