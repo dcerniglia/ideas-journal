@@ -13,18 +13,18 @@ export class DailyIdeasComponent implements OnInit {
       body: 'This is my first idea',
       categories: []
     },
-    {
-      id: '2',
-      date: new Date(),
-      body: 'A second idea is nearly as good as a first idea',
-      categories: []
-    },
-    {
-      id: '3',
-      date: new Date(),
-      body: 'And a final idea for the day',
-      categories: []
-    }
+    // {
+    //   id: '2',
+    //   date: new Date(),
+    //   body: 'A second idea is nearly as good as a first idea',
+    //   categories: []
+    // },
+    // {
+    //   id: '3',
+    //   date: new Date(),
+    //   body: 'And a final idea for the day',
+    //   categories: []
+    // }
   ]
   constructor() { }
 
