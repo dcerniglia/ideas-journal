@@ -18,15 +18,16 @@ body {
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   /* background-color: #3D5A80; */
   border-radius: 1.25rem;
-  box-shadow: 16px 18px 18px 2px rgba(0,0,0,0.75);
+  box-shadow: 16px 18px 18px 2px rgba(0, 0, 0, 0.30);
   border: none;
 }
+
 .header-button:hover {
   background-color: #7f5a83;
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   /* background-color: #3D5A80; */
   border-radius: 1.25rem;
-  box-shadow: 16px 18px 18px 2px rgba(82, 56, 78, 0.75);
+  box-shadow: 16px 18px 18px 2px rgba(82, 56, 78, 0.30);
   border: none;
 }
 
@@ -37,8 +38,8 @@ body {
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
   /* background-color: #3D5A80; */
   border-radius: 1.25rem;
-  box-shadow: -16px 18px 18px 2px rgba(0,0,0,0.75);
-
+  box-shadow: -16px 18px 18px 2px rgba(0, 0, 0, 0.30);
+  border: none;
 }
 
 li {
@@ -46,11 +47,40 @@ li {
 }
 
 #add-btn {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
+  position: sticky;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
 }
 
 .btn {
   border-radius: 1rem;
+  border: none;
+  box-shadow: -16px 18px 18px 2px rgba(0, 0, 0, 0.30);
+}
+
+.btn-close {
+  color: white;
+}
+.modal-content {
+  box-shadow: -16px 26px 8px 0px rgb(0 0 0 / 30%) inset;
+  border-radius: 1.25rem;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+
+.modal {
+  background-color: #0d324d;
+}
+
+.form-control {
+  background: none;
+  color:white;
+}
+
+.form-control:focus {
+  background: none;
+  box-shadow: -16px 18px 18px 2px rgba(0, 0, 0, 0.30);
+  border: none;
+  border-radius: 1.25rem;
+  color: white;
 }
