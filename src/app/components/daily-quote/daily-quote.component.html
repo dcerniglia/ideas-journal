@@ -1,15 +1,11 @@
 <div class="row mt-4">
 	<div class="col-10 mx-auto">
-		<div class="card">
+		<div class="card p-10">
 			<div class="card-body align-content-center">
-				<h5 class="card-title">{{ body }}</h5>
-				<h6 class="card-subtitle text-muted ps-4 pt-2"> --  {{ author }}</h6>
+				<h5 class="card-title ps-4">{{ body }}</h5>
+				<h6 class="card-subtitle text-muted ps-4 pt-2 pb-2"> -- {{ author }}</h6>
+				<button class="btn btn-outline-light float-end text-nowrap" (click)="getQuote()">Inspiration</button>
 			</div>
-		</div>
-	</div>
-	<div class="row mt-4">
-		<div class="col-4 mx-auto">
-			<button class="btn btn-primary" (click)="getQuote()">Get Quote</button>
 		</div>
 	</div>
 </div>
