@@ -9,6 +9,7 @@ import { QuoteService } from './services/quote.service';
 import { DailyIdeasComponent } from './components/daily-ideas/daily-ideas.component';
 import { NewIdeaModalComponent } from './components/new-idea-modal/new-idea-modal.component';
 import { GratitudeComponent } from './components/gratitude/gratitude.component';
+import { HeaderComponent } from './components/header/header.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GratitudeComponent } from './components/gratitude/gratitude.component';
     DailyQuoteComponent,
     DailyIdeasComponent,
     NewIdeaModalComponent,
-    GratitudeComponent
+    GratitudeComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

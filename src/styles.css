@@ -4,14 +4,41 @@
 
 
 body {
+  background-color: #0d324d;
+  /* background-image: linear-gradient(315deg, #000000 0%, #242424 74%); */
+  background-repeat: no-repeat;
+  height: 100vh;
   font-family: 'Roboto', 'Courier New', 'Courier';
   color: #FBF8EF;
-  background-color: #98C1D9;
+  /* background-color: #98C1D9; */
 }
 
+.header-button {
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  /* background-color: #3D5A80; */
+  border-radius: 1.25rem;
+  box-shadow: 16px 18px 18px 2px rgba(0,0,0,0.75);
+  border: none;
+}
+.header-button:hover {
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  /* background-color: #3D5A80; */
+  border-radius: 1.25rem;
+  box-shadow: 16px 18px 18px 2px rgba(82, 56, 78, 0.75);
+  border: none;
+}
+
+
+
 .card {
-	background-color: #3D5A80;
-	border-radius: 1.25rem;
+  /* background-color: #7f5a83; */
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  /* background-color: #3D5A80; */
+  border-radius: 1.25rem;
+  box-shadow: -16px 18px 18px 2px rgba(0,0,0,0.75);
+
 }
 
 li {
@@ -25,5 +52,5 @@ li {
 }
 
 .btn {
-	border-radius: 1rem;
+  border-radius: 1rem;
 }
