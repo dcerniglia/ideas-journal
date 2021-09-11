@@ -1,7 +1,11 @@
-<div class="row">
-	<div class="col text-center">
-		<ul class="d-block">
-			<li *ngFor="let idea of ideas">{{ idea.body }}</li>
-		</ul>
+<div class="row mt-4 d-flex">
+	<div class="col-10 mx-auto">
+		<div class="card">
+			<div class="card-body align-content-center">
+				<ul>
+					<li *ngFor="let idea of ideas" class="align-items-start">{{ idea.body }}</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </div>
