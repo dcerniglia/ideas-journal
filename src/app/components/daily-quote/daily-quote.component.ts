@@ -19,6 +19,7 @@ export class DailyQuoteComponent implements OnInit {
   loadQuotes () {
   this.quoteService.getDailyQuotes().subscribe(data => {
       this.quotes$ = data;
+      this.getQuote();
     })
   }
   getQuote() {
@@ -30,7 +31,6 @@ export class DailyQuoteComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadQuotes();
-    this.getQuote();
   }
 
 }
