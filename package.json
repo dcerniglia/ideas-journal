@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --open",
-    "build": "ng build --base-href ./ ",
+    "build": "ng build --base-href  'https://dcerniglia.github.io/ideas-journal/'",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
