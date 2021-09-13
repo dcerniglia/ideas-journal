@@ -22,9 +22,9 @@ body {
   border: none;
 }
 
-.header-button:hover {
+.header-button:active {
   background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74% inset);
   /* background-color: #3D5A80; */
   border-radius: 1.25rem;
   box-shadow: 16px 18px 18px 2px rgba(82, 56, 78, 0.30);
